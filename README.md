@@ -2,50 +2,40 @@
 Analytics
 Este projeto aborda conceitos básicos e práticos de Machine Learning, utilizando Python e bibliotecas populares para análise de dados e modelagem preditiva.
 
-1. Importação de Bibliotecas
-   
-1.1 - O primeiro passo consiste na importação das bibliotecas necessárias
 
-3. Carregamento dos Dados
-   
-2.1 - Os dados são carregados a partir de um arquivo CSV.
+Importação de Bibliotecas
+- Primeiro passo consiste na importação das bibliotecas necessárias
+  
+Carregamento dos Dados
+- Os dados são carregados a partir de um arquivo CSV.
+  
+Visualização dos Dados
+- Visualizações iniciais são realizadas para entender a estrutura dos dados
+  
+Análise de Dados Faltantes
+- Verificação e tratamento de valores ausentes nas colunas do DataFrame
+  
+Pré-processamento dos Dados
+- Codificação de Variáveis Categóricas: Conversão de dados categóricos em numéricos, se necessário.
+- Normalização ou Padronização: Aplicação de técnicas para escalar os dados, se relevante.
 
-5. Visualização dos Dados
-   
-3.1 - Visualizações iniciais são realizadas para entender a estrutura dos dados
+Divisão do Conjunto de Dados
+- Os dados são divididos em conjuntos de treinamento e teste
 
-7. Análise de Dados Faltantes
-   
-4.1 - Verificação e tratamento de valores ausentes nas colunas do DataFrame
+Escolha do Modelo
+- Seleção do modelo de Machine Learning (por exemplo, Regressão Logística)
 
-9. Pré-processamento dos Dados
-    
-5.1 - Codificação de Variáveis Categóricas: Conversão de dados categóricos em numéricos, se necessário.
+Treinamento do Modelo
+- O modelo é treinado com os dados de treinamento
 
-5.2- Normalização ou Padronização: Aplicação de técnicas para escalar os dados, se relevante.
+Avaliação do Modelo
+- A eficácia do modelo é avaliada utilizando o conjunto de teste
 
-11. Divisão do Conjunto de Dados
-    
-6.1 - Os dados são divididos em conjuntos de treinamento e teste
+Matriz de Confusão
+- Uma matriz de confusão é gerada para entender melhor as previsões do modelo
 
-13. Escolha do Modelo
-    
-7.1 - Seleção do modelo de Machine Learning (por exemplo, Regressão Logística)
-
-15. Treinamento do Modelo
-    
-8.1 - O modelo é treinado com os dados de treinamento
-
-17. Avaliação do Modelo
-    
-9.1 - A eficácia do modelo é avaliada utilizando o conjunto de teste
-
-19. Matriz de Confusão
-    
-10.1 - Uma matriz de confusão é gerada para entender melhor as previsões do modelo
-
-21. Visualização dos Resultados
-11.1 - Gráficos podem ser utilizados para ilustrar os resultados, como matrizes de confusão ou curvas ROC.
+Visualização dos Resultados
+- Gráficos podem ser utilizados para ilustrar os resultados, como matrizes de confusão ou curvas ROC.
 
 Conclusão
- Discussão dos resultados obtidos e sugestões para melhorias futuras, como ajuste de hiperparâmetros ou experimentação com outros algoritmos
+- Discussão dos resultados obtidos e sugestões para melhorias futuras, como ajuste de hiperparâmetros ou experimentação com outros algoritmos
