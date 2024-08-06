@@ -24,7 +24,7 @@ Este projeto tem como objetivo explorar os conceitos fundamentais de Machine Lea
    - Os dados são então divididos em conjuntos de treinamento e teste. Essa divisão é importante para permitir que o modelo aprenda a partir de um subconjunto de dados (conjunto de treinamento) enquanto testa sua capacidade de generalização em dados não vistos (conjunto de teste).
 
 ### 7. **Escolha do Modelo de Machine Learning**
-   - O notebook explora diferentes algoritmos de Machine Learning, selecionando um apropriado para a tarefa em questão. A escolha do modelo pode depender do tipo de problema (classificação, regressão, etc.) e das características dos dados.
+   - O projeto explora diferentes algoritmos de Machine Learning, selecionando um apropriado para a tarefa em questão. A escolha do modelo pode depender do tipo de problema (classificação, regressão, etc.) e das características dos dados.
    - A análise pode incluir uma breve discussão sobre os critérios para a seleção desse modelo.
 
 ### 8. **Treinamento do Modelo**
@@ -40,4 +40,4 @@ Este projeto tem como objetivo explorar os conceitos fundamentais de Machine Lea
    - Gráficos e visualizações são criados para facilitar a interpretação dos resultados e para ajudar a comunicar os achados de forma visual. Isso pode incluir gráficos que demonstram a distribuição das previsões e a eficácia do modelo.
 
 ### 12. **Conclusão**
-   - Por fim, o notebook encerra com uma discussão geral sobre os resultados obtidos, incluindo reflexões sobre o desempenho do modelo e considerações para futuras melhorias. Isso pode incluir sugestões de experimentação com diferentes algoritmos, ajuste de hiperparâmetros, ou coletar dados adicionais.
+   - Por fim, o projeto encerra com uma discussão geral sobre os resultados obtidos, incluindo reflexões sobre o desempenho do modelo e considerações para futuras melhorias. Isso pode incluir sugestões de experimentação com diferentes algoritmos, ajuste de hiperparâmetros, ou coletar dados adicionais.
