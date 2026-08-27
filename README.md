@@ -1,66 +1,62 @@
-<h1 align="center"> Machine Learning, Regressão Linear</h1>
+# Machine Learning — Regressão Linear de Ponta a Ponta
 
-<p align="center">
-  <em>Construção de um modelo preditivo do zero: do tratamento dos dados à avaliação do modelo.</em>
-</p>
+Construção de um modelo preditivo do zero, cobrindo todo o fluxo de um problema supervisionado: do
+tratamento dos dados à avaliação do modelo. O projeto usa Regressão Linear (scikit-learn) para
+demonstrar, na prática, cada etapa de um pipeline de Machine Learning — da exploração inicial à
+interpretação das predições.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn"/>
-  <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas"/>
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy"/>
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter"/>
-  <img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white" alt="Plotly"/>
-</p>
+> **Nota de confidencialidade:** os dados presentes neste repositório são fictícios, gerados apenas
+> para demonstração. Nenhum dado real, credencial ou informação de terceiros foi incluído aqui.
 
 ---
 
-## 🎯 Objetivo
+## Visão Geral
 
-Explorar os conceitos fundamentais de **Machine Learning**, aplicando técnicas de preparação de dados, modelagem e avaliação. O projeto usa **Regressão Linear** (scikit-learn) para construir um modelo preditivo e entender, na prática, todo o fluxo de um problema supervisionado.
+O projeto documenta um pipeline supervisionado completo em um notebook: importação e exploração dos
+dados, tratamento de valores ausentes, pré-processamento, divisão treino/teste, treinamento do modelo
+e avaliação por R². O objetivo é mostrar domínio do método, não apenas o resultado — cada passo é
+explicado e interpretado.
 
-## 🔬 Fluxo do projeto
+## Relevância para o Negócio
+
+Regressão é a base de qualquer previsão quantitativa aplicável ao varejo: estimar demanda, projetar
+vendas ou entender o efeito de variáveis sobre um resultado. Dominar o fluxo completo — preparar o
+dado, treinar e avaliar com honestidade estatística — é o que permite levar um modelo do estudo para
+uma decisão real.
+
+## Fluxo do Projeto
 
 | # | Etapa | Descrição |
 |---|-------|-----------|
-| 1 | **Importação de bibliotecas** | pandas, NumPy, seaborn, Plotly e scikit-learn. |
-| 2 | **Carregamento dos dados** | Leitura da base a partir de arquivo. |
-| 3 | **Exploração inicial** | Primeiras linhas, estatísticas descritivas e estrutura dos dados. |
-| 4 | **Dados faltantes** | Verificação e tratamento de valores ausentes. |
-| 5 | **Pré-processamento** | Codificação de variáveis, padronização e limpeza. |
-| 6 | **Split treino/teste** | Divisão dos dados com `train_test_split`. |
-| 7 | **Modelagem** | Treinamento de um modelo de `LinearRegression`. |
-| 8 | **Avaliação** | Medição de desempenho com **R² (`r2_score`)**. |
-| 9 | **Predições** | Predições manuais e interpretação dos resultados. |
-| 10 | **Visualização** | Gráficos para comunicar os achados. |
+| 1 | Importação | Bibliotecas de dados e modelagem (pandas, NumPy, scikit-learn). |
+| 2 | Carregamento | Leitura da base de dados. |
+| 3 | Exploração | Estatísticas descritivas e estrutura dos dados. |
+| 4 | Dados faltantes | Verificação e tratamento de valores ausentes. |
+| 5 | Pré-processamento | Codificação de variáveis, padronização e limpeza. |
+| 6 | Split | Divisão treino/teste (`train_test_split`). |
+| 7 | Modelagem | Treinamento de `LinearRegression`. |
+| 8 | Avaliação | Desempenho medido por R² (`r2_score`). |
+| 9 | Predições | Predições e interpretação dos resultados. |
+| 10 | Visualização | Comunicação dos achados por gráficos. |
 
-## 🛠️ Ferramentas
+## Stack
 
-- **Linguagem:** Python
-- **Bibliotecas:** scikit-learn, pandas, NumPy, seaborn, Matplotlib, Plotly
+Python - scikit-learn - pandas - NumPy - seaborn - Matplotlib - Plotly - Jupyter.
 
-## 🚀 Como executar
+## Como Rodar
 
 ```bash
-# Instalar dependências
 pip install scikit-learn pandas numpy seaborn matplotlib plotly
-
-# Abrir o notebook
 jupyter notebook 16_MACHINE_LEARNING.ipynb
 ```
 
-## 📂 Arquivos
+## Estrutura do Projeto
 
-| Arquivo | Descrição |
-|---------|-----------|
-| [`16_MACHINE_LEARNING.ipynb`](16_MACHINE_LEARNING.ipynb) | Notebook completo, da preparação dos dados à avaliação do modelo. |
+```text
+16_MACHINE_LEARNING.ipynb   -> Notebook completo (preparação, modelagem e avaliação)
+```
 
-## ✅ Conclusão
+## Autor
 
-O projeto percorre todas as etapas de um pipeline de Machine Learning supervisionado, encerrando com reflexões sobre o desempenho do modelo e possíveis melhorias — como ajuste de hiperparâmetros e experimentação com outros algoritmos.
-
----
-
-<p align="center">
-  <sub>Feito por <a href="https://github.com/VitorSantos-1">Vitor Santos</a> · 🤖 Machine Learning</sub>
-</p>
+José Vitor Santos Pinheiro — Análise de Dados e Inteligência Comercial (Varejo e Supply Chain).
+Contato: vytorsantt@gmail.com
